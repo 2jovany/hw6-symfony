@@ -1,0 +1,3 @@
+hello_sympony_hello_homepage:
+    path:     /
+    defaults: { _controller: HelloSymponyHelloBundle:Default:index }

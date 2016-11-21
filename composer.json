@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "name": "symfony/framework-standard-edition",
     "license": "MIT",
     "type": "project",
@@ -9,25 +8,9 @@
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
     "autoload-dev": {
-        "psr-4": { "Tests\\": "tests/" }
-=======
-    "name": "yura/practice.com",
-    "license": "proprietary",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "": "src/"
-        },
-        "classmap": [
-            "app/AppKernel.php",
-            "app/AppCache.php"
-        ]
-    },
-    "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
         }
->>>>>>> 9f77539ebc9adeb81f8a1db452f6f4f1c0c97964
     },
     "require": {
         "php": ">=5.5.9",
@@ -62,14 +45,11 @@
             "@symfony-scripts"
         ]
     },
-<<<<<<< HEAD
     "config": {
         "platform": {
             "php": "5.5.9"
         }
     },
-=======
->>>>>>> 9f77539ebc9adeb81f8a1db452f6f4f1c0c97964
     "extra": {
         "symfony-app-dir": "app",
         "symfony-bin-dir": "bin",
@@ -80,12 +60,8 @@
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
         },
-<<<<<<< HEAD
         "branch-alias": {
             "dev-master": "3.1-dev"
         }
-=======
-        "branch-alias": null
->>>>>>> 9f77539ebc9adeb81f8a1db452f6f4f1c0c97964
     }
 }

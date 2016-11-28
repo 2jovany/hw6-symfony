@@ -1,0 +1,11 @@
+hello_sympony_hello_simple:
+    path:     /simple/
+    defaults: { _controller: HelloSymponyHelloBundle:Simple:about }
+
+hello_sympony_hello_simple2:
+    path:     /simple/{id}
+    defaults: { _controller: HelloSymponyHelloBundle:Simple:slug }
+
+hello_sympony_hello_simple3:
+    path:     /simple/blog/{lang}/{page}/{id}/{article}
+    defaults: { _controller: HelloSymponyHelloBundle:Simple:module }

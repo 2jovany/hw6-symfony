@@ -2,6 +2,10 @@ hello_sympony_hello:
     resource: "@HelloSymponyHelloBundle/Resources/config/routing.yml"
     prefix:   /
 
+hello_sympony_simple:
+    resource: "@HelloSymponyHelloBundle/Resources/config/routingSimple.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

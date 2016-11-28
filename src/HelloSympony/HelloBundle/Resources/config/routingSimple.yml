@@ -9,3 +9,14 @@ hello_sympony_hello_simple2:
 hello_sympony_hello_simple3:
     path:     /simple/blog/{lang}/{page}/{id}/{article}
     defaults: { _controller: HelloSymponyHelloBundle:Simple:module }
+
+hello_sympony_hello_simple4:
+    path:     /simple/news/{lang}/{page}/{id}/{article}
+    defaults: { _controller: HelloSymponyHelloBundle:Simple:module }
+    requirements:
+          lang: 'ua|en|ru'
+          id: '\d+'
+
+hello_sympony_hello_simple5:
+    path:     /simple/forum/{lang}/{page}/{id}/{article}
+    defaults: { _controller: HelloSymponyHelloBundle:Simple:module, id: 300, article: About Me }

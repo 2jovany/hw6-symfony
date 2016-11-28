@@ -6,6 +6,10 @@ hello_sympony_simple:
     resource: "@HelloSymponyHelloBundle/Resources/config/routingSimple.yml"
     prefix:   /
 
+hello_sympony_prefix:
+    resource: "@HelloSymponyHelloBundle/Resources/config/routingPrefix.yml"
+    prefix:   /foo
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

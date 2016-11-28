@@ -6,3 +6,4 @@ Lesson 7
     * With one param : slug
     * With many params : module
 ####2. Routing with prefix
+####3. generateURL() usage

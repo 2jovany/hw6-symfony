@@ -48,6 +48,12 @@ class SimpleController extends Controller
 	 */
     public function moduleAction($lang, $page, $id, $article)
     {
+    	$url = $this->generateUrl('hello_sympony_hello_simple4',array(
+		    'lang' => 'en',
+		    'page' => $page,
+		    'id' => $id,
+		    'article' => $article
+	    ));
     	return new Response(
     	    '<html>
 			<body>
@@ -66,6 +72,8 @@ class SimpleController extends Controller
 						</tr>	
 						
 				</table>
+				<br>
+				<a href="' . $url . '">Select en language</a>
 			</body>
 			</html>'
 	    );
